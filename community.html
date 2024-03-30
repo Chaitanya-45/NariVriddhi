@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="community.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+</head>
+<script src="auth.js"></script>
+<body>
+    <section class="header">
+        <nav style="padding-top: 30px;">
+            <img style="width: 250px; margin-left: 85px;" src="imgs/nvt1.png">
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home2.html" style="font-size: 18px;">Home</a></li>
+                    <li><a href="career.html" style="font-size: 18px;">Career</a></li>
+                     <li><a href="#" style="font-size: 18px;">Mental Health</a></li>
+                     <li><a href="explore.html" style="font-size: 18px;">Explore</a></li>
+                     <li><a href="ideahub.html" style="font-size: 18px;">IdeaHub</a></li>
+                     <li><a href="community.html" style="font-size: 18px;">Community</a></li>
+                     <li><a href="#" style="font-size: 18px;">Articles</a></li>
+                     <li><a href="#" style="font-size: 18px;background-color: #ad8a38; font-weight: bold; padding: 10px; border-radius: 5px;">Profile</a></li>
+                     
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>    
+
+        <br><br><br><br>
+        <div class="text-box">
+            <h1 style="font-size:50px">Fostering unity, empowerment,</h1>
+            <h1 style="font-size:50px"> and collaboration.</h1>
+        </div>
+
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded"><i class="fa-solid fa-message"></i></span>
+            <span class="material-symbols-outlined"><i class="fa-solid fa-xmark"></i></span>
+          </button>
+          <div class="chatbot">
+            <header>
+              <h2>Chatbot</h2>
+              <span class="close-btn material-symbols-outlined"><i class="fa-solid fa-xmark"></i></span>
+            </header>
+            <ul class="chatbox">
+              <li class="chat incoming">
+                <span class="material-symbols-outlined"><i class="fa-regular fa-paper-plane"></i></span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+              </li>
+            </ul>
+            <div class="chat-input">
+              <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+              <span id="send-btn" class="material-symbols-rounded"><i class="fa-solid fa-share"></i></span>
+            </div>
+          </div>
+    </section>
+
+    <section class="blogs">
+        <div class="blog">
+            <h2>Breaking Stereotypes in the Workplace</h2>
+            <p class="author">Author: Sarah Johnson</p>
+            <p>As a successful businesswoman, I've faced numerous challenges. Let's discuss strategies to break through workplace stereotypes and empower each other.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <div class="comment">
+                    <p class="comment-author">Emma</p>
+                    <p>This is such an inspiring post, Sarah! I can relate to your experiences and appreciate your advice.</p>
+                </div>
+                <div class="add-comment">
+                    <textarea placeholder="Add your comment"></textarea>
+                    <button>Add Comment</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog">
+            <h2>Supporting Each Other Through Tough Times</h2>
+            <p class="author">Author: Mia Rodriguez</p>
+            <p>Let's create a safe space to share our struggles and support one another. Remember, together we are stronger!</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <div class="comment">
+                    <p class="comment-author">Olivia</p>
+                    <p>Thank you for initiating this discussion, Mia. It's comforting to know that we're not alone in our challenges.</p>
+                </div>
+                <div class="add-comment">
+                    <textarea placeholder="Add your comment"></textarea>
+                    <button>Add Comment</button>
+                </div>
+            </div>
+        </div>
+       
+            <div class="blog">
+                <h2>Breaking Cultural Barriers: My Journey</h2>
+                <p class="author">Author: Aisha Khan</p>
+                <p>Being raised in a conservative society, I've encountered numerous cultural barriers. Let's share our experiences and strategies for breaking free from societal norms.</p>
+                <div class="comments">
+                    <h3>Comments</h3>
+                    <div class="comment">
+                        <p class="comment-author">Nadia</p>
+                        <p>Thank you for sharing your story, Aisha. It's empowering to see women challenging cultural norms and embracing their individuality.</p>
+                    </div>
+                    <div class="add-comment">
+                        <textarea placeholder="Add your comment"></textarea>
+                        <button>Add Comment</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="blog">
+                <h2>Self-Care Amidst Everyday Challenges</h2>
+                <p class="author">Author: Lily Chen</p>
+                <p>Let's talk about the importance of self-care in our busy lives. Share your tips and tricks for finding moments of peace and rejuvenation amidst everyday challenges.</p>
+                <div class="comments">
+                    <h3>Comments</h3>
+                    <div class="comment">
+                        <p class="comment-author">Sophia</p>
+                        <p>Thank you, Lily, for highlighting the significance of self-care. It's crucial for maintaining our well-being and resilience.</p>
+                    </div>
+                    <div class="add-comment">
+                        <textarea placeholder="Add your comment"></textarea>
+                        <button>Add Comment</button>
+                    </div>
+                </div>
+            </div>
+       
+        
+    </section>
+
+    <section class="footer">
+        <h3 style="color:#f0dbaa; font-weight: bold;">Contact Us</h3>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </section>
+    <script src="javascript/main_script.js"></script>
+</body>
+</html>
