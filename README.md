@@ -4,7 +4,7 @@
 Narivriddhi is a platform dedicated to empowering women in the technology sector. It provides comprehensive support for their professional growth and personal well-being, addressing challenges such as gender disparities and mental health issues.
 
 ## Problem Statement:
-"Design and implement a holistic career guidance platform with a focus on women's empowerment including rural communities, incorporating personalized career assessments, educational resources, community support, and mental health check tools to facilitate informed career decisions and promote overall well-being."v
+"Design and implement a holistic career guidance platform with a focus on women's empowerment including rural communities, incorporating personalized career assessments, educational resources, community support, and mental health check tools to facilitate informed career decisions and promote overall well-being."
 
 ## Domain:
 Technology, Gender Equality, Mental Health
