@@ -27,6 +27,7 @@
                       url('imgs/tempbg.png');
 }
 
+/* Fonts */
 @font-face {
     font-family: "Poppins-Bold";
     src: url("../Poppins/Poppins-Bold.ttf");
@@ -44,6 +45,7 @@ body {
     cursor: default;
 }
 
+/* Idea Sharing Section */
 .idea-sharing {
     width: 80%;
     margin: auto;
@@ -160,6 +162,7 @@ body {
     cursor: pointer;
 }
 
+/* Media Query */
 @media (max-width: 1150px) {
     * {
         overflow-x: hidden;
@@ -203,7 +206,9 @@ body {
         padding: 30px;
     }
 
+    /* Additional adjustments for other sections can be added here */
 }
+/* Add this CSS to style the modal */
 .modal {
     display: none;
     position: fixed;
