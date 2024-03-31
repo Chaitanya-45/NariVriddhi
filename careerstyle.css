@@ -36,18 +36,18 @@
 .big-card {
     width: 300px;
     height: 300px;
-    background-color: rgba(173, 138, 56, 0.5); /* semi-transparent color */
+    background-color: rgba(173, 138, 56, 0.5); 
     margin: 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* smooth transition on hover */
+    transition: background-color 0.3s ease; 
 }
 
 .big-card:hover {
-    background-color: rgba(173, 138, 56, 0.8); /* darken on hover */
+    background-color: rgba(173, 138, 56, 0.8);
 }
 
 .big-card h2 {
