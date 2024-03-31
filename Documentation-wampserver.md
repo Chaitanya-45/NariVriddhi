@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This document provides instructions on setting up the database for the [Codeoholics Web Portal] project using WampServer. The project uses a MySQL database to manage user information for sign-up and login functionality.
+This document provides instructions on setting up the database for the project using WampServer. The project uses a MySQL database to manage user information for sign-up and login functionality.
 
 ### Prerequisites
 
