@@ -83,24 +83,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = document.getElementById('email').value;
         const languages = document.getElementById('languages').value;
 
-        // Do something with the form data (e.g., send a request to the server)
 
-        // Display success notification
         alert('Request sent successfully!');
 
-        // Close the modal
         joinIdeaModal.style.display = 'none';
 
-        // Clear form fields
         joinIdeaForm.reset();
     });
 
-    // Close the modal when clicking on the close button
     document.querySelector('.close').addEventListener('click', function() {
         joinIdeaModal.style.display = 'none';
     });
 
-    // Close the modal when clicking outside of it
     window.addEventListener('click', function(event) {
         if (event.target === joinIdeaModal) {
             joinIdeaModal.style.display = 'none';
