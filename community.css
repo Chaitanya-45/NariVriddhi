@@ -11,7 +11,7 @@
 .header,
 .cta,
 .sub-header {
-    background-image: url('imgs/tempbg.png');
+    background-image: url('tempbg.png');
     background-position: center;
     background-size: cover;
 }
@@ -19,12 +19,12 @@
 .sub-header,
 .light-mode .sub-header {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-                      url('imgs/tempbg.png');
+                      url('tempbg.png');
 }
 
 .dark-mode .sub-header {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-                      url('imgs/tempbg.png');
+                      url('tempbg.png');
 }
 
 /* Fonts */
