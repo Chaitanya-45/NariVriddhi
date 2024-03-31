@@ -1,4 +1,5 @@
 <?php
+// Establish a connection to the database
 $conn = mysqli_connect("localhost", "root", "", "user_db");
 
 if (!$conn) {
@@ -14,7 +15,7 @@ if (isset($_POST['login_btn'])) {
 
     if ($result && mysqli_num_rows($result) > 0) {
         // Login successful
-        header('Location: profile.html');
+        header('Location: home2.html');
         exit();
     } else {
         echo "<script>alert('Login unsuccessful');</script>";
@@ -50,7 +51,7 @@ mysqli_close($conn);
 <body>
 <section class="header">
         <nav style="padding-top: 30px;">
-        <img style="width: 250px; margin-left: 85px;" src="nvt1.png">
+        <img style="width: 250px; margin-left: 85px;" src="imgs/nvt1.png">
         <a href="index.html"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hidemenu()"></i>
