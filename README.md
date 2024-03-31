@@ -25,7 +25,7 @@ Our platform, dedicated to empowering women in the technology sector, offers a c
    - Platform for women to post and share project ideas.
    - Collaborate with other women on shared projects and ideas.
 
-4. **Explore Page** (Exclusively for Women):
+4. **Explore Page**:
    - Access information on schemes, scholarships, job opportunities, internships, hackathons, and women's conferences.
    - Discover events and opportunities nearest to them for professional growth.
 
