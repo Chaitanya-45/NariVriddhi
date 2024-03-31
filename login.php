@@ -1,5 +1,4 @@
 <?php
-// Establish a connection to the database
 $conn = mysqli_connect("localhost", "root", "", "user_db");
 
 if (!$conn) {
